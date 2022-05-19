@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 90px;
+  /* 16px=100%, 90px : 90/16=5.625 i.e. 562.5% */
+  /*16px=100%=1em*/
+  margin: 50px auto 0 auto;
+  /* margin: 0 auto 0 auto; */
+  font-family: 'Ubuntu', sans-serif;
+  color: #66BFBF;
+  /*To change text-color in CSS*/
+  /* line-height: 2; */
+}
+
+h2 {
+  font-size: 2.5rem;
+  /*1rem=16px=100%, 40px: 40/16=2.5rem=250%*/
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  margin: 100px auto;
+  /*margin: 30px auto; Use of "auto" to make text in center. right=left=auto.*/
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 7px;
+  width: 7%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  /*To remove underlines from Anchor tags*/
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-img {
+  width: 25%;
+  /* margin-top: 50px; */
+}
+
+.intro {
+  color: #40514E;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills {
+  margin: 75px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /*To make everything in center inside skill-row.*/
+  text-align: left;
+}
+
+.coding-img {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.poetry-img {
+  width: 25%;
+  float: right;
+  margin: 30px 0 30px 0;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+/* To make text go below the image being left-aligned.
+.code-skill-description {
+  clear: left;
+} */
+/* Similar to above
+.poetry-skill-description {
+  clear: right;
+} */
+.contact-me {
+  margin-top: 50px;
+}
+
+.contact-description {
+  padding: 30px;
+  width: 50%;
+  margin: 40px auto 60px;
+  /*Top: 40PX, lEFT-rIGHT: AUTO, Bottom: 60px*/
+}
+
+.btn {
+  background: #11cdd4;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  text-decoration: none;
+}
+
+/* You can use this/ directly anchor tags css property
+.footer-link {
+  color: #11999E;
+} */
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
